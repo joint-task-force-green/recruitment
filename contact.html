@@ -1,0 +1,99 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>JTFG™️ - Enquire</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/enVision.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="jobs.html">SELECTION</a></li>
+                <li><a href="ticket.html">APPLY</a></li>
+                 <li><a href="contact.html">ENQUIRE</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Enquire Below</h1>
+</section>
+
+<!-------- ABOUT US CONTENT ----------->
+
+<body>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <form id="contact-box" method="post" action="contact-form-handler.php"></form>
+                <h2>Contact Us</h2>
+                <input type="text" class="field" placeholder="Your Name">
+                <input type="email" class="field" placeholder="Your Email">
+                <input type="text" class="field" placeholder="Your Discord">
+                <textarea class="field area" placeholder="Message"></textarea>
+                <button class="btn">Send</button>
+            </div>
+        </div>
+                </form>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------- Footer ----------->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Joint Task Force Green is made up of every type of person with only a few similarities. Our requirements.<br> People seeking entry are required to be thirteen or over, have a good understanding of the English language, a sense of humour, and a touch of common sense.<br> Our training is as close to real life as you can get, as parts of it have been experienced in real life by some members.</p>
+    <div class="icons">
+        <a href="https://discord.gg/hjaRuYhnwB" class="fa-brands fa-discord" target="_blank"></a>
+    </div>
+    <p>© 2023 Joint Task Force Green, platform and design developed by 1A_17 - copyright and intellectual all rights reserved. v1.0.0</p>
+</section>
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>

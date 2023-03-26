@@ -1,0 +1,96 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>JTFG™️ - About Us</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/enVision.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="jobs.html">SELECTION</a></li>
+                <li><a href="ticket.html">APPLY</a></li>
+                 <li><a href="contact.html">ENQUIRE</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+</section>
+
+<!-------- ABOUT US CONTENT ----------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>Joint Task Force Green</h1>
+            <p>Combined Special Operations Joint Task Force 315 (CSOJTF-315), popularly known as Joint Task Force Green (JTFG) is a multinational UN force tasked with a combined mission set. The main purpose of the unit in place of any one Tier One or Tier Two SOF unit is to combine the experience and training of multiple forces to create a breeding ground for better training, tactics, and more successful missions. The unit originally formed with elements of the 22nd SAS Regiment in 2015 saw massive expansion and has since seen inclusion of Military, and Federal Police units from every country in the United Nations to the task force, leading to the Task Force being given the rare capability of operating both in a domestic and foreign role in multiple nations, this being due to the fact the task force was temporarily attached to the requisite agency and unit to the country prior to the deployment. Operators from Joint Task Force Green, which is made up of other units who operate on their own time act as their own force and deploy as an on call force, or to pre-planned combat deployments. Joint Task Force Green has deployed to Africa 11 times, Iraq and Syria 9 times, and Afghanistan 6 times, maintaining a very high operational tempo, they have lost 3 members in combat in their 7 year span and are virtually unknown to those outside of the SOF community, with members signing waivers agreeing to deny any knowledge of the unit for 20 years following their contract with the Armed Forces ending.</p>
+            <a href="jobs.html" class="hero-btn red-btn">SELECTION PROCESS</a>
+        </div>
+        <div class="about-col">
+            <img src="images/aboutusjtfg.png">
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------- Footer ----------->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Joint Task Force Green is made up of every type of person with only a few similarities. Our requirements.<br> People seeking entry are required to be thirteen or over, have a good understanding of the English language, a sense of humour, and a touch of common sense.<br> Our training is as close to real life as you can get, as parts of it have been experienced in real life by some members.</p>
+    <div class="icons">
+        <a href="https://discord.gg/hjaRuYhnwB" class="fa-brands fa-discord" target="_blank"></a>
+    </div>
+    <p>© 2023 Joint Task Force Green, platform and design developed by 1A_17 - copyright and intellectual all rights reserved. v1.0.0</p>
+</section>
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
